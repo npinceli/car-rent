@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Rent</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><span>Car</span> Rent</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Cars</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button class="button-sign-in"><a href="#">Sign In</a></button>
+                <button class="button-sign-up"><a href="#">Sign Up</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu-open.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cars</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button class="button-sign-in"><a href="#">Sign In</a></button>
+                <button class="button-sign-up"><a href="#">Sign Up</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner-content">
+            <div class="banner-content-left">
+                <h1 class="banner-content-left-title">Drive The Car<br>You Ever <span>Dream</span>.</h1>
+                <p class="banner-content-left-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur illum dolorem repudiandae nulla minus, incidunt nam quia nobis sapiente tenetur?</p>
+                <div class="banner-content-left-div">
+                    <a class="banner-content-left-button" href="#">Discover</a>
+                </div>
+            </div>
+            <div class="banner-content-right">
+                <img class="banner-content-right-image" src="img/car.png" alt="Car image">
+            </div>
+        </section>
+
+        <section class="search-content">
+            <form class="search-content-form">
+                <div class="search-content-field">
+                    <label class="search-content-label" for="location">Pickup location</label>
+                    <input class="search-content-input" type="text" name="location" id="location" placeholder="Enter city or adress...">
+                </div>
+                <div class="search-content-field">
+                    <label class="search-content-label" for="date">Pickup date</label>
+                    <input class="search-content-input" type="date" name="date" id="date">
+                </div>
+                
+                <div class="search-content-field">
+                    <label class="search-content-label" for="date2">Return date</label>
+                    <input class="search-content-input" type="date" name="date2" id="date2">
+                </div>
+                
+                <div class="search-content-search">
+                    <a class="search-content-button" href="">Search</a>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="js/header.js"></script>
+</body>
+</html>

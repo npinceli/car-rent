@@ -1,0 +1,18 @@
+@import url("css/header.css");
+@import url("css/banner.css");
+@import url("css/search.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primary-color: #E23E57;
+    --secondary-color: #88304E;
+    --dark: #522546;
+    --night: #311D3F;
+}
+

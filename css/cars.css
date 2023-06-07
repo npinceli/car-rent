@@ -45,15 +45,94 @@
 .cars-content-cards-car {
     padding: 1rem;
     width: 300px;
-}
-
-.cars-content-cards-image {
-    border-radius: .3rem;
-    width: 100%;
-}
-
-.cars-content-cards-car {
     border-radius: .3rem;
     box-shadow: 0 0 5px 5px var(--box-shadow);
     margin: 0 2rem;
+    display: grid;
+    grid-template-areas: 
+    "img img img"
+    "brand type year"
+    "name name name"
+    "desc desc desc"
+    "price price price"
+    "btn btn btn"
+    ;
+    gap: .5rem;
+    
+}
+
+.cars-content-cards-image {
+    grid-area: img;
+    border-radius: .3rem;
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+.cars-content-cards-brand {
+    grid-area: brand;
+    justify-self: self-start;
+}
+
+.cars-content-cards-type {
+    grid-area: type;
+    justify-self: center;
+}
+
+.cars-content-cards-year {
+    grid-area: year;
+    justify-self: self-end;
+}
+
+.material-symbols-outlined {
+    color: var(--grey2);
+    font-size: 1.2rem !important;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.tag {
+    background-color: #f2f2f2;
+    padding: .2rem .4rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    font-size: .9rem;
+    color: var(--grey2);
+}
+
+.cars-content-cards-name {
+    grid-area: name;
+    margin-top: .5rem;
+}
+
+.cars-content-cards-description {
+    grid-area: desc;
+    color: var(--grey2);
+}
+
+.cars-content-cards-price {
+    grid-area: price;
+    justify-self: flex-end;
+    padding: .2rem 0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.cars-content-cards-btn {
+    grid-area: btn;
+    background-color: var(--primary-color);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: .5rem 0;
+    border-radius: .3rem;
+    transition: .3s;
+}
+
+.cars-content-cards-btn:hover {
+    background-color: var(--secondary-color);
 }

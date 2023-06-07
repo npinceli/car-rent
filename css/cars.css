@@ -136,3 +136,17 @@
 .cars-content-cards-btn:hover {
     background-color: var(--secondary-color);
 }
+
+@media screen and (max-width: 1000px) {
+    .cars-content-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cars-content-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

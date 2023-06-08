@@ -25,6 +25,7 @@
     color: black;
     text-decoration: none;
     font-weight: 600;
+    transition: .3s;
 }
 
 .cars-content-brands-button:hover {
@@ -36,7 +37,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem 0;
-    margin-top: 1rem;
+    margin: 1rem 0;
 }
 
 .cars-content-cards-car {
@@ -132,6 +133,23 @@
 
 .cars-content-cards-btn:hover {
     background-color: var(--secondary-color);
+}
+
+.all-cars {
+    padding: 0.7rem 1.2rem;
+    margin: 3rem 0;
+    border: 1px solid var(--grey);
+    background-color: transparent;
+    border-radius: .3rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.all-cars:hover {
+    cursor: pointer;
+    background-color: var(--grey);
 }
 
 @media screen and (max-width: 1200px) {

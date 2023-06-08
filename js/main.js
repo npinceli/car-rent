@@ -21,7 +21,7 @@ function showCars (carList) {
                 <span class="cars-content-cards-year tag flex"> <span class="material-symbols-outlined">calendar_month</span>  <p>${car.year}</p> </span>          
                 <h2 class="cars-content-cards-name">${car.name}</h2>
                 <p class="cars-content-cards-description">${car.desc}</p>
-                <p class="cars-content-cards-price">$ ${car.price}/day</p>
+                <p class="cars-content-cards-price">$${car.price} / day</p>
                 <a href="" class="cars-content-cards-btn">Rent Now</a>
             </div>
         `

@@ -56,7 +56,15 @@
     "btn btn btn"
     ;
     gap: .5rem;
-    
+    transition: 1s;
+}
+
+.cars-content-cards-car:hover .cars-content-cards-name {
+    color: var(--secondary-color);
+}
+
+.cars-content-cards-car:hover .cars-content-cards-btn {
+    background-color: var(--secondary-color);
 }
 
 .cars-content-cards-image {
@@ -131,9 +139,7 @@
     transition: .3s;
 }
 
-.cars-content-cards-btn:hover {
-    background-color: var(--secondary-color);
-}
+
 
 .all-cars {
     padding: 0.7rem 1.2rem;

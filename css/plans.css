@@ -1,0 +1,57 @@
+.plans-content {
+    background-color: #fbfafa;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans-content-title {
+    font-size: 2rem;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--primary-color);
+    font-family: var(--secondary-font);
+}
+
+.plans-content-text {
+    font-size: 1.1rem;
+    color: var(--grey2);
+    margin-bottom: 5rem;
+}
+
+.plans-content-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.plans-content-card-plans {
+    padding: 1rem 4rem;
+    background-color: blue;  
+}
+
+.left {
+    border-radius: .4rem 0 0 .4rem;
+    background-color: #fff;
+}
+
+.center {
+    transform: scale(1.1);
+    border-radius: .4rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.right {
+    border-radius: 0 .4rem .4rem 0;
+    background-color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+}

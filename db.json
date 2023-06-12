@@ -13,7 +13,7 @@
         "brand": "Audi",
         "type": "Manual",
         "year": "1998",
-        "name": "Nissan R34",
+        "name": "Audi TT",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
@@ -22,7 +22,7 @@
         "brand": "Audi",
         "type": "Manual",
         "year": "1998",
-        "name": "Nissan R34",
+        "name": "Audi A3",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
@@ -31,7 +31,7 @@
         "brand": "BMW",
         "type": "Manual",
         "year": "1998",
-        "name": "Nissan R34",
+        "name": "BMW M3",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
@@ -40,7 +40,7 @@
         "brand": "BMW",
         "type": "Manual",
         "year": "1998",
-        "name": "Nissan R34",
+        "name": "BMW M4",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
@@ -49,7 +49,7 @@
         "brand": "BMW",
         "type": "Manual",
         "year": "1998",
-        "name": "Nissan R34",
+        "name": "BMW X1",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     }

@@ -63,7 +63,31 @@
 
 @media screen and (max-width: 1000px) {
     .banner-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .banner-content-left {
+        margin: 0 2rem;
+    }
+
+    .banner-content-left-title {
+        font-size: 2rem;
+    }
+
+    .banner-content-right {
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner-content {
         display: flex;
+    }
+
+    .banner-content-left {
+        margin: 1rem;
+        padding: 0 1.5rem;
     }
 
     .banner-content-left-title {
@@ -72,20 +96,5 @@
 
     .banner-content-right {
         display: none;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .banner-content {
-        padding: 4rem 0;
-    }
-
-    .banner-content-left {
-        margin: 1rem;
-        padding: 0 1rem;
-    }
-
-    .banner-content-left-title {
-        font-size: 2rem;
     }
 }

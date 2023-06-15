@@ -101,13 +101,13 @@
     background-color: #fbfafa;
 }
 
-@media screen and (max-width: 1000px) {
-
-}
-
 @media screen and (max-width: 600px) {
     .plans-content {
         height: fit-content;
+    }
+
+    .plans-content-card-plans {
+        padding: 1rem 5.5rem;
     }
 
     .plans-content-title {

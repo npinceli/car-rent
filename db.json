@@ -9,7 +9,7 @@
         "price": 300.00
     },
     {
-        "image": "img/nissanr34.jpeg",
+        "image": "img/auditt.jpg",
         "brand": "Audi",
         "type": "Manual",
         "year": "1998",
@@ -18,37 +18,37 @@
         "price": 300.00
     },
     {
-        "image": "img/nissanr34.jpeg",
+        "image": "img/audia3.jpeg",
         "brand": "Audi",
         "type": "Manual",
-        "year": "1998",
+        "year": "2003",
         "name": "Audi A3",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
     {
-        "image": "img/nissanr34.jpeg",
+        "image": "img/bmwm3.jpg",
         "brand": "BMW",
         "type": "Manual",
-        "year": "1998",
+        "year": "2020",
         "name": "BMW M3",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
     {
-        "image": "img/nissanr34.jpeg",
+        "image": "img/bmwm44.jpg",
         "brand": "BMW",
         "type": "Manual",
-        "year": "1998",
+        "year": "2018",
         "name": "BMW M4",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00
     },
     {
-        "image": "img/nissanr34.jpeg",
+        "image": "img/bmwx1.jpeg",
         "brand": "BMW",
         "type": "Manual",
-        "year": "1998",
+        "year": "2009",
         "name": "BMW X1",
         "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quis, quae odio nam incidunt officiis!",
         "price": 300.00

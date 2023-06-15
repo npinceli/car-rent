@@ -25,5 +25,8 @@
     font-family: var(--primary-font);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 

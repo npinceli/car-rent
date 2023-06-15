@@ -101,3 +101,41 @@
     background-color: #fbfafa;
 }
 
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 600px) {
+    .plans-content {
+        height: fit-content;
+    }
+
+    .plans-content-title {
+        border-top: none;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .plans-content-text {
+        font-size: 1.1rem;
+        margin-bottom: 0;
+    }
+
+    .plans-content-card {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .right {
+        border-radius: .4rem;
+    }
+
+    .center {
+        transform: scale(1);
+        margin: 1.5rem 0;
+    }
+
+    .left {
+        border-radius: .4rem;
+    }
+}

@@ -173,3 +173,14 @@
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .nav-bar {
+        padding: 1.5rem 2.2rem;
+    }
+
+    .mobile-menu .login-button button{
+        width: 100%;
+        margin: 0.3rem;
+    }
+}

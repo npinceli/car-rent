@@ -36,7 +36,7 @@
 
 ## Live Preview
 
-<p> You can acess the live preview clicking <a href="https://car-rent-rouge.vercel.app/">here</a>.</p>
+<p> You can access the live preview clicking <a href="https://car-rent-rouge.vercel.app/">here</a>.</p>
 
 ## Project Status and Ideas
 

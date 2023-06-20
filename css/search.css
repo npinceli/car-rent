@@ -31,6 +31,7 @@
     border-radius: .2rem;
     padding: .6rem 1rem;
     margin: .5rem 0 0 0;
+    color: #000;
 }
 
 .search-content-search {
@@ -46,6 +47,9 @@
     color: #fff;
     text-decoration: none;
 }
+
+
+
 
 @media screen and (max-width: 1000px) {
     .search-content {
@@ -65,15 +69,30 @@
         margin-top: 1rem;
         justify-content: center;
     }
-}
-
-@media screen and (max-width: 600px) {
-    .search-content-field {
-        width: 100%;
-    }
 
     .search-content-button {
         width: 100%;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .search-content {
+        padding: 0;
+        margin: -2 0 0 0;
+        max-width: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-content-form {
+        width: 60%;
+        padding: 1rem;
+    }
+
+    .search-content-button {
+        text-align: center;
+        width: 100%;
     }
 }

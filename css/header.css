@@ -1,7 +1,11 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 0rem;
+}
+
+.container {
+    padding: 0 10rem;
 }
 
 .logo {
@@ -99,8 +103,12 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .container {
+
+    }
+
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1.5rem 0rem;
     }
 
     .nav-item {
@@ -175,6 +183,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .container {
+        padding: 0;
+    }
+
     .nav-bar {
         padding: 1.5rem 2.2rem;
     }

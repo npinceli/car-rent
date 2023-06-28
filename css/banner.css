@@ -54,27 +54,40 @@
 }
 
 .banner-content-right {
-    display: flex;
-    align-items: center;
+    justify-self: flex-end;
 }
 
 .banner-content-right-image {
-    margin: 0 0 0 0;
+    margin: 0;
     width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
+    .banner-content-left-title br {
+        display: none;
+    }
+
     .banner-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .banner-content-left-title {
         font-size: 2rem;
     }
+
+    .banner-content-right-image {
+        width: 80%;
+    }
+
+    
 }
 
 @media screen and (max-width: 600px) {
+    .banner-content-left-title br {
+        display: block;
+    }
+
     .banner-content {
         display: flex;
     }

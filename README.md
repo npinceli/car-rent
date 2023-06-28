@@ -11,7 +11,7 @@
 <p> - Layout made by me. </p>
 <p> - 100% responsive, you can use on any device. </p>
 
-![image](https://github.com/npinceli/car-rent/assets/124709875/60450117-1bc3-4ede-b165-549054480da4)
+![image](https://github.com/npinceli/car-rent/assets/124709875/ac552037-8d53-4bfc-bbe8-40289124219c)
 
 ## Live Preview
 

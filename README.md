@@ -1,22 +1,18 @@
-# :car: Car Rent :car:
+# Car Rent 
 
-![Static Badge](https://img.shields.io/badge/HTML-orange) 
-![Static Badge](https://img.shields.io/badge/CSS-blue)
-![Static Badge](https://img.shields.io/badge/JavaScript-red)
-
-## About
-
-<p> - It's a car rental website, you can search for your dream car and rent it! </p>
-<p> - Study project. </p>
-<p> - Layout made by me. </p>
-<p> - 100% responsive, you can use on any device. </p>
+Website para alugar carros.
 
 ![image](https://github.com/npinceli/car-rent/assets/124709875/ac552037-8d53-4bfc-bbe8-40289124219c)
 
-## Live Preview
+## Linguagens e ferramentas
+Feito com HTML, CSS e JavaScript.
 
-<p> You can access the live preview clicking <a href="https://car-rent-rouge.vercel.app/">here</a>.</p>
+## Objetivo
+Esse projeto teve como objetivo colocar em prática JavaScript, no menu responsivo e usando o método filter para a filtragem dos carros.
 
-## Project Status
+## Como usar
+<a href="https://car-rent-rouge.vercel.app/">Acesse o projeto aqui</a>
 
-- It's not 100% done, I want to add more features soon.
+## Sobre
+<p> O layout foi feito por mim com inspirações do Dribbble. </p>
+<p> Esse foi o meu primeiro projeto. </p>

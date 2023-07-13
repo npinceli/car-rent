@@ -8,7 +8,7 @@ Website para alugar carros.
 Feito com HTML, CSS e JavaScript.
 
 ## Objetivo
-Esse projeto teve como objetivo colocar em prática JavaScript, no menu responsivo e usando o método filter para a filtragem dos carros.
+Esse projeto teve como objetivo colocar em prática JavaScript no menu responsivo e usando o método filter para a filtragem dos carros.
 
 ## Como usar
 <a href="https://car-rent-rouge.vercel.app/">Acesse o projeto aqui</a>
